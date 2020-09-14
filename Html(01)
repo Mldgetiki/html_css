@@ -1,0 +1,38 @@
+<html>
+ <head>
+ <title>Лабораторна робота №1</title>
+ </head>
+ <body>
+  <h1>Кур’ян Сергій Олександрович</h1>
+  <p>Лабораторна робота №1</p>
+  <h2>Телефон:</h2>
+  <p>+380631808281</p>
+  <h3>Кілька запитань:</h3>
+  <p>Що вам подобається більше?</p>
+  <input type="radio" id="contactChoice1"
+     name="contact" value="email">
+    <label for="contactChoice1">Playstation</label>
+
+    <input type="radio" id="contactChoice2"
+     name="contact" value="phone">
+    <label for="contactChoice2">PC</label>
+
+    <input type="radio" id="contactChoice3"
+     name="contact" value="mail">
+    <label for="contactChoice3">Nintendo Switch</label>
+    <form method="post" action="input5.php">
+   <p><b>Який ваш улюблений вид спорту?</b></p>
+   <p><input type="checkbox" name="option1" value="a1" checked>Футбол<Br>
+   <input type="checkbox" name="option2" value="a2">Волейбол<Br>
+   <input type="checkbox" name="option3" value="a3">Баскетбол<Br>
+   <input type="checkbox" name="option4" value="a4">Теніс<Br>
+   <input type="checkbox" name="option5" value="a5">Бокс</p>
+   <p><input type="submit" value="Отправить"></p>
+   <form action="textarea1.php" method="post">
+    <p><b>Як ви оціните мої запитання?</b></p>
+    <p><textarea rows="10" cols="45" name="text"></textarea></p>
+    <p><input type="submit" value="Отправить"></p>
+  </form>
+  </form>
+ </body>
+</html>
